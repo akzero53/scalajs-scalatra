@@ -1,0 +1,5 @@
+.idea/
+scalajs-scalatra.iml
+target/
+server/src/main/webapp/index.html
+server/src/main/webapp/js/
