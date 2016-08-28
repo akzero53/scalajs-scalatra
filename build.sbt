@@ -1,3 +1,5 @@
+import com.github.akzero53._
+
 val commonSettings = CommonSettings(
   organization = "com.github.akzero53",
   version = "0.1.0-SNAPSHOT",
