@@ -12,7 +12,7 @@ lazy val root = projectFactory.createRootProject("scalajs-scalatra")
   .aggregate(client, server)
 
 lazy val client = projectFactory.createSubProject("client")
-  .settings(ScalaJSSettings.createScalaJsDefaultSettings("ScalaJS - Scalatra / Hello World", server))
+  .settings(ScalaJSSettings.createScalatraScalaJsSettings("ScalaJS - Scalatra / Hello World", server))
   .enablePlugins(ScalaJSPlugin)
 
 lazy val server = projectFactory.createSubProject("server")
